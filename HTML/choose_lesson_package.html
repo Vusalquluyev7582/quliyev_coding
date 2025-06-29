@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quliyev_coding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/choose_lesson_package.css">
+    <link rel="shortcut icon" href="../images/logo.jpeg" type="image/x-jpeg">
+</head>
+
+<body>
+
+    <!--* header hissəsi -->
+
+    <header>
+        <img src="../images/logo.jpeg" alt="Logo" class="logo">
+        <h1>quliyev_coding</h1>
+
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <nav class="main-nav">
+            <ul class="nav">
+                <li class="nav-item"><a href="../HTML/index.html" class="nav-link">Ana Səhifə</a></li>
+                <li class="nav-item"><a href="../HTML/lesson_packs.html" class="nav-link">Dərs paketləri/Qiymətlər</a>
+                </li>
+                <li class="nav-item"><a href="../HTML/choose_lesson_package.html" class="nav-link">Öz dərs paketini
+                        yarat</a></li>
+                <li class="nav-item"><a href="../HTML/about_lessons.html" class="nav-link">Dərslər haqqında</a></li>
+                <li class="nav-item"><a href="../HTML/students.html" class="nav-link">Tələbələrin əl işləri</a></li>
+                <li class="nav-item"><a href="../HTML/difference_gain.html"
+                        class="nav-link">Fərqimiz/Qazanacaqlarınız</a></li>
+                <li class="nav-item"><a href="../HTML/contact.html" class="nav-link">Əlaqə</a></li>
+                <li class="nav-item"><a href="../HTML/form.html" class="nav-link">Qeydiyyat</a></li>
+            </ul>
+        </nav>
+
+
+        <!--* hamburger menu hissəsi -->
+
+        <nav class="mobile-nav">
+            <div class="close-btn" id="close-menu">&times;</div>
+            <ul class="mobile-menu-list">
+                <li class="nav-item active"><a href="../HTML/index.html" class="nav-link">Ana Səhifə</a></li>
+                <li class="nav-item"><a href="../HTML/lesson_packs.html" class="nav-link">Dərs paketləri/Qiymətlər</a>
+                </li>
+                <li class="nav-item"><a href="../HTML/choose_lesson_package.html" class="nav-link">Öz dərs paketini
+                        yarat</a></li>
+                <li class="nav-item"><a href="../HTML/about_lessons.html" class="nav-link">Dərslər haqqında</a></li>
+                <li class="nav-item"><a href="../HTML/students.html" class="nav-link">Tələbələrin əl işləri</a></li>
+                <li class="nav-item"><a href="../HTML/difference_gain.html"
+                        class="nav-link">Fərqimiz/Qazanacaqlarınız</a></li>
+                <li class="nav-item"><a href="../HTML/contact.html" class="nav-link">Əlaqə</a></li>
+                <li class="nav-item"><a href="../HTML/form.html" class="nav-link">Qeydiyyat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--* main hissəsi -->
+
+    <div class="d-flex justify-content-center align-items-center min-vh-100">
+
+        <div class="container my-5 col-12 col-sm-10 col-md-8 col-lg-9">
+            <h2 class="mb-4 text-center text-dark"> Öz Dərs Paketinizi Seçin</h2>
+            <div class="accordion" id="lessonPackageAccordion">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingHTML">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseHTML" aria-expanded="false" aria-controls="collapseHTML">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxHTML"
+                                data-lesson="HTML 5" data-price="20" data-weeks="2" data-lessons-count="6">
+                            <label class="form-check-label" for="checkboxHTML">
+                                HTML 5 (2 həftə, 6 dərs) - <span class="price-info">20 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseHTML" class="accordion-collapse collapse" aria-labelledby="headingHTML"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>HTML 5</strong> internet səhifələrinin strukturunu yaratmaq üçün istifadə olunan
+                            standart
+                            işarələmə dilidir. Veb inkişafının təməlidir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingCSS">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseCSS" aria-expanded="false" aria-controls="collapseCSS">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxCSS"
+                                data-lesson="CSS 3" data-price="30" data-weeks="3" data-lessons-count="9">
+                            <label class="form-check-label" for="checkboxCSS">
+                                CSS 3 (3 həftə, 9 dərs) - <span class="price-info">30 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseCSS" class="accordion-collapse collapse" aria-labelledby="headingCSS"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>CSS 3</strong> (Cascading Style Sheets) veb səhifələrinin görünüşünü və formatını
+                            təyin
+                            etmək üçün istifadə olunur. Dizaynı HTML-dən ayırır.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSASS">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSASS" aria-expanded="false" aria-controls="collapseSASS">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxSASS"
+                                data-lesson="SASS/SCSS" data-price="40" data-weeks="2" data-lessons-count="6">
+                            <label class="form-check-label" for="checkboxSASS">
+                                SASS/SCSS (2 həftə, 6 dərs) - <span class="price-info">40 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseSASS" class="accordion-collapse collapse" aria-labelledby="headingSASS"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>SASS/SCSS</strong> CSS preprocessorlarıdır. CSS kodunu daha effektiv və təşkilatlı
+                            yazmaq üçün dəyişənlər, funksiyalar və nesting kimi imkanlar təklif edir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingBootstrap">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseBootstrap" aria-expanded="false" aria-controls="collapseBootstrap">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxBootstrap"
+                                data-lesson="BOOTSTRAP 5" data-price="50" data-weeks="2" data-lessons-count="6">
+                            <label class="form-check-label" for="checkboxBootstrap">
+                                BOOTSTRAP 5 (2 həftə, 6 dərs) - <span class="price-info">50 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseBootstrap" class="accordion-collapse collapse" aria-labelledby="headingBootstrap"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>Bootstrap 5</strong> veb saytları və veb proqramlarını tez və asanlıqla yaratmaq
+                            üçün
+                            pulsuz bir ön-uç çərçivəsidir. Responsive dizayn üçün geniş komponentlər təklif edir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingJavaScript">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseJavaScript" aria-expanded="false"
+                            aria-controls="collapseJavaScript">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxJavaScript"
+                                data-lesson="JAVASCRIPT (ES 5, ES 6, ES 7)" data-price="80" data-weeks="6"
+                                data-lessons-count="18">
+                            <label class="form-check-label" for="checkboxJavaScript">
+                                JAVASCRIPT (6 həftə, 18 dərs) - <span class="price-info">80
+                                    AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseJavaScript" class="accordion-collapse collapse" aria-labelledby="headingJavaScript"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>JavaScript</strong> veb səhifələrinə interaktivlik əlavə etmək üçün istifadə olunan
+                            proqramlaşdırma dilidir. Dinamik veb məzmunu yaratmağa imkan verir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingjQuery">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsejQuery" aria-expanded="false" aria-controls="collapsejQuery">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxjQuery"
+                                data-lesson="JQUERY" data-price="80" data-weeks="2" data-lessons-count="6">
+                            <label class="form-check-label" for="checkboxjQuery">
+                                JQUERY (2 həftə, 6 dərs) - <span class="price-info">80 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapsejQuery" class="accordion-collapse collapse" aria-labelledby="headingjQuery"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>jQuery</strong> JavaScript-in sürətli, kiçik və zəngin xüsusiyyətlərə malik bir
+                            kitabxanasıdır. DOM manipulyasiyasını, hadisə idarəetməsini və animasiyaları asanlaşdırır.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingReact">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseReact" aria-expanded="false" aria-controls="collapseReact">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxReact"
+                                data-lesson="REACT" data-price="100" data-weeks="4" data-lessons-count="12">
+                            <label class="form-check-label" for="checkboxReact">
+                                REACT (4 həftə, 12 dərs) - <span class="price-info">100 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseReact" class="accordion-collapse collapse" aria-labelledby="headingReact"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>React</strong> interaktiv istifadəçi interfeysləri qurmaq üçün JavaScript
+                            kitabxanasıdır. Komponentlərə əsaslanan arxitektura təklif edir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFigma">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFigma" aria-expanded="false" aria-controls="collapseFigma">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxFigma"
+                                data-lesson="FİGMA ilə işləmə bacarığı" data-price="20" data-weeks="1"
+                                data-lessons-count="3">
+                            <label class="form-check-label" for="checkboxFigma">
+                                FİGMA ilə işləmə (1 həftə, 3 dərs) - <span class="price-info">20
+                                    AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseFigma" class="accordion-collapse collapse" aria-labelledby="headingFigma"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>Figma</strong> veb və mobil tətbiqlərin interfeys dizaynı üçün geniş istifadə olunan
+                            bulud əsaslı alətdir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingGit">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseGit" aria-expanded="false" aria-controls="collapseGit">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxGit"
+                                data-lesson="GİT/GİTHUB" data-price="50" data-weeks="2" data-lessons-count="6">
+                            <label class="form-check-label" for="checkboxGit">
+                                GİT/GİTHUB (2 həftə, 6 dərs) - <span class="price-info">50 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseGit" class="accordion-collapse collapse" aria-labelledby="headingGit"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>Git</strong> versiya nəzarət sistemi, <strong>GitHub</strong> isə Git
+                            repozitoriyalarını host edən platformadır.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTailwind">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTailwind" aria-expanded="false" aria-controls="collapseTailwind">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxTailwind"
+                                data-lesson="TAİLWİND CSS" data-price="80" data-weeks="2" data-lessons-count="6">
+                            <label class="form-check-label" for="checkboxTailwind">
+                                TAİLWİND CSS (2 həftə, 6 dərs) - <span class="price-info">80 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseTailwind" class="accordion-collapse collapse" aria-labelledby="headingTailwind"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>Tailwind CSS</strong> sürətli UI inkişafı üçün utility-first CSS çərçivəsidir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTypeScript">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTypeScript" aria-expanded="false"
+                            aria-controls="collapseTypeScript">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxTypeScript"
+                                data-lesson="TYPESCRIPT" data-price="90" data-weeks="4" data-lessons-count="12">
+                            <label class="form-check-label" for="checkboxTypeScript">
+                                TYPESCRIPT (4 həftə, 12 dərs) - <span class="price-info">90 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseTypeScript" class="accordion-collapse collapse" aria-labelledby="headingTypeScript"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>TypeScript</strong> JavaScript-in tipi güclü üst dəstidir. Böyük miqyaslı
+                            tətbiqlərin inkişafını asanlaşdırır.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingRedux">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseRedux" aria-expanded="false" aria-controls="collapseRedux">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxRedux"
+                                data-lesson="REDUX (Toolkit)" data-price="100" data-weeks="3" data-lessons-count="9">
+                            <label class="form-check-label" for="checkboxRedux">
+                                REDUX (Toolkit) (3 həftə, 9 dərs) - <span class="price-info">100 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseRedux" class="accordion-collapse collapse" aria-labelledby="headingRedux"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>Redux Toolkit</strong> JavaScript tətbiqləri üçün proqnozlaşdırılan vəziyyət
+                            konteyneridir. Vəziyyət idarəçiliyini asanlaşdırır.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNextJS">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseNextJS" aria-expanded="false" aria-controls="collapseNextJS">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxNextJS"
+                                data-lesson="NEXT.JS" data-price="100" data-weeks="3" data-lessons-count="9">
+                            <label class="form-check-label" for="checkboxNextJS">
+                                NEXT.JS (3 həftə, 9 dərs) - <span class="price-info">100 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseNextJS" class="accordion-collapse collapse" aria-labelledby="headingNextJS"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>Next.js</strong> React üçün açıq mənbəli veb çərçivəsidir. Server-side rendering
+                            (SSR) və static site generation (SSG) dəstəkləyir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingAngular">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseAngular" aria-expanded="false" aria-controls="collapseAngular">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxAngular"
+                                data-lesson="ANGULAR" data-price="100" data-weeks="4" data-lessons-count="12">
+                            <label class="form-check-label" for="checkboxAngular">
+                                ANGULAR (4 həftə, 12 dərs) - <span class="price-info">100 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseAngular" class="accordion-collapse collapse" aria-labelledby="headingAngular"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>Angular</strong> Google tərəfindən idarə olunan TypeScript əsaslı veb tətbiq
+                            çərçivəsidir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingVueJS">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseVueJS" aria-expanded="false" aria-controls="collapseVueJS">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxVueJS"
+                                data-lesson="VUE.JS" data-price="100" data-weeks="4" data-lessons-count="12">
+                            <label class="form-check-label" for="checkboxVueJS">
+                                VUE.JS (4 həftə, 12 dərs) - <span class="price-info">100 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseVueJS" class="accordion-collapse collapse" aria-labelledby="headingVueJS"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>Vue.js</strong> interaktiv veb interfeysləri qurmaq üçün proqressiv JavaScript
+                            çərçivəsidir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNodeJS">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseNodeJS" aria-expanded="false" aria-controls="collapseNodeJS">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxNodeJS"
+                                data-lesson="NODE.JS" data-price="100" data-weeks="4" data-lessons-count="12">
+                            <label class="form-check-label" for="checkboxNodeJS">
+                                NODE.JS (4 həftə, 12 dərs) - <span class="price-info">100 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseNodeJS" class="accordion-collapse collapse" aria-labelledby="headingNodeJS"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>Node.js</strong> veb tətbiqləri yaratmaq üçün JavaScript run-time mühitidir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSvelteJS">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSvelteJS" aria-expanded="false" aria-controls="collapseSvelteJS">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxSvelteJS"
+                                data-lesson="SVELTE.JS" data-price="100" data-weeks="3" data-lessons-count="9">
+                            <label class="form-check-label" for="checkboxSvelteJS">
+                                SVELTE.JS (3 həftə, 9 dərs) - <span class="price-info">100 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseSvelteJS" class="accordion-collapse collapse" aria-labelledby="headingSvelteJS"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>Svelte.js</strong> UI komponentləri yaratmaq üçün müasir JavaScript çərçivəsidir.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEmberJS">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseEmberJS" aria-expanded="false" aria-controls="collapseEmberJS">
+                            <input class="form-check-input me-2 lesson-checkbox" type="checkbox" id="checkboxEmberJS"
+                                data-lesson="EMBER.JS" data-price="100" data-weeks="3" data-lessons-count="9">
+                            <label class="form-check-label" for="checkboxEmberJS">
+                                EMBER.JS (3 həftə, 9 dərs) - <span class="price-info">100 AZN</span>
+                            </label>
+                        </button>
+                    </h2>
+                    <div id="collapseEmberJS" class="accordion-collapse collapse" aria-labelledby="headingEmberJS"
+                        data-bs-parent="#lessonPackageAccordion">
+                        <div class="accordion-body">
+                            <strong>Ember.js</strong> veb tətbiqlər yaratmaq üçün məhsuldarlığa yönəlmiş JavaScript
+                            çərçivəsidir.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card mt-4 p-3 bg-light">
+                <h5 class="card-title text-dark">Seçilmiş Paketlər:</h5>
+                <ul id="selectedLessonsList" class="list-group list-group-flush">
+                </ul>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <h4 class="mb-0 text-dark">Ümumi Müddət:</h4>
+                    <h4 class="mb-0 text-dark" id="totalDuration">0 həftə (0 ay)</h4>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                    <h4 class="mb-0 text-dark">Aylıq Qiymət:</h4>
+                    <h4 class="mb-0 text-dark" id="totalPrice">0.00 AZN</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--* footer hissəsi -->
+
+    <footer>
+
+        <!--* yuxarı çıx hissəsi -->
+        <a href="#" class="go-upstairs" style="display: none;">Yuxarı çıx</a>
+
+        <div class="footer-content">
+            <div class="footer-about">
+                <img src="../images/logo.jpeg" alt="Loqo" class="footer-logo">
+                <p>Quliyev Coding - Gələcəyə kod yazırıq. Hər sətirdə yeni dünyalar.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Sürətli Keçidlər</h4>
+                <ul>
+                    <li><a href="index.html">Ana Səhifə</a></li>
+                    <li><a href="../HTML/lesson_packs.html">Dərs paketləri/Qiymətlər</a></li>
+                    <li><a href="../HTML/choose_lesson_package.html">Öz dərs paketini yarat</a></li>
+                    <li><a href="../HTML/about_lessons.html">Dərslər haqqında</a></li>
+                    <li><a href="../HTML/students.html">Tələbələrin əl işləri</a></li>
+                    <li><a href="../HTML/difference_gain.html">Fərqimiz/Qazanacaqlarınız</a></li>
+                    <li><a href="../HTML/contact.html">Əlaqə</a></li>
+                    <li><a href="../HTML/form.html">Qeydiyyat</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Əlaqə</h4>
+                <p><i class="fas fa-map-marker-alt"></i>Sumqayıt, Azərbaycan</p>
+                <p><i class="fas fa-phone"></i>+994 010 312 83 13 </p>
+                <p><i class="fas fa-envelope"></i>vquluyev274@gmail.com</p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Bizi İzləyin</h4>
+                <div class="sosial-media">
+                    <a href="#"><img src="../images/instagram.jpg" alt="İnstagram"></a>
+                    <a href="#"><img src="../images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="../images/youtube.png" alt="YouTube"></a>
+                    <a href="#"><img src="../images/linkedin.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Quliyev Coding. Bütün hüquqlar qorunur.</p>
+        </div>
+    </footer>
+
+    <!-- <script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../JS/choose_lesson_package.js"></script>
+</body>
+
+</html>
