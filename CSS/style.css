@@ -12,9 +12,7 @@ body {
     overflow-y: overlay;
 }
 
-
 /** intro animation hissəsi */
-
 #intro-animation-container {
     position: fixed;
     top: 0;
@@ -95,9 +93,7 @@ body {
     }
 }
 
-
 /** header hissəsi */
-
 header {
     display: flex;
     flex-wrap: wrap;
@@ -240,9 +236,7 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-
 /** hamburger menu hissəsi */
-
 .mobile-nav {
     position: fixed;
     top: 0;
@@ -338,9 +332,7 @@ a {
     border-radius: 5px;
 }
 
-
 /** karusel hissəsi */
-
 .front-end-carousel,
 .back-end-carousel,
 .full-stack-carousel {
@@ -396,9 +388,7 @@ h3 a:hover {
     filter: invert(19%) sepia(85%) saturate(7232%) hue-rotate(358deg) brightness(97%) contrast(100%);
 }
 
-
 /** footer hissəsi */
-
 footer {
     width: 100%;
     padding: 40px 20px;
@@ -544,9 +534,7 @@ footer {
     color: #cccccc;
 }
 
-
 /** yuxarı çıx hissəsi */
-
 .go-upstairs {
     position: fixed;
     bottom: 25px;
@@ -589,11 +577,8 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
 }
 
-
 /** Responsivlik: Media Queries */
-
 /* 1449px */
-
 @media screen and (max-width: 1449px) {
 
     .menu-items {
@@ -622,9 +607,7 @@ footer {
 
 }
 
-
 /* 1439px */
-
 @media (max-width: 1439px) {
 
     .intro-yazi1 {
@@ -676,9 +659,7 @@ footer {
 
 }
 
-
 /* 768px */
-
 @media (max-width: 768px) {
 
     .carousel-item img {
@@ -700,9 +681,7 @@ footer {
 
 }
 
-
 /* 576px */
-
 @media (max-width: 576px) {
 
     .logo {
@@ -738,9 +717,7 @@ footer {
 
 }
 
-
 /* 480px */
-
 @media (max-width: 480px) {
 
     .intro-yazi1 {

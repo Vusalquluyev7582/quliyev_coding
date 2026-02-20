@@ -12,9 +12,7 @@ body {
     overflow-y: overlay;
 }
 
-
 /** header hissəsi */
-
 header {
     display: flex;
     flex-wrap: wrap;
@@ -158,9 +156,7 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-
 /** hamburger menu hissəsi */
-
 .mobile-nav {
     position: fixed;
     top: 0;
@@ -256,9 +252,7 @@ a {
     border-radius: 5px;
 }
 
-
 /** main hissəsi */
-
 .difference-benefits-section {
     padding: 40px 0;
     background-color: rgba(255, 255, 255, 0.95);
@@ -458,9 +452,7 @@ a {
     font-size: 1.2em;
 }
 
-
 /** footer hissəsi */
-
 footer {
     width: 100%;
     padding: 40px 20px;
@@ -607,9 +599,7 @@ footer {
     color: #cccccc;
 }
 
-
 /** yuxarı çıx hissəsi */
-
 .go-upstairs {
     position: fixed;
     bottom: 25px;
@@ -652,11 +642,9 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
 }
 
-
 /** Responsivlik: Media Queries */
 
 /* 1449px */
-
 @media screen and (max-width: 1449px) {
 
     .menu-items {
@@ -685,9 +673,7 @@ footer {
 
 }
 
-
 /* 1439px */
-
 @media (max-width: 1439px) {
 
     header {
@@ -725,9 +711,7 @@ footer {
 
 }
 
-
 /* 768px */
-
 @media (max-width: 768px) {
 
     .difference-benefits-section {
@@ -825,9 +809,7 @@ footer {
     }
 }
 
-
 /* 576px */
-
 @media (max-width: 576px) {
 
     .logo {
@@ -863,9 +845,7 @@ footer {
 
 }
 
-
 /* 480px */
-
 @media (max-width: 480px) {
 
     .logo {

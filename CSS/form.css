@@ -16,9 +16,7 @@ body {
     overflow-y: overlay;
 }
 
-
 /** header hissəsi */
-
 header {
     display: flex;
     flex-wrap: wrap;
@@ -161,9 +159,7 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-
 /** hamburger menu hissəsi */
-
 .mobile-nav {
     position: fixed;
     top: 0;
@@ -259,9 +255,7 @@ a {
     border-radius: 5px;
 }
 
-
 /** bildiriş hissəsi */
-
 .coming-soon-message {
     width: 100%;
     padding: 25px 0;
@@ -284,9 +278,7 @@ a {
     cursor: default;
 }
 
-
 /** form hissəsi */
-
 .form-container {
     background-color: #fff;
     padding: 40px;
@@ -689,17 +681,13 @@ button:hover::before {
     color: #71b7e6 !important;
 }
 
-
 /** təklif hissəsi */
-
 h3 {
     margin: 70px 0px 40px;
     text-align: center;
 }
 
-
 /** Kart hissəsi  */
-
 .wrapper {
     min-height: calc(100vh - 100px);
     display: flex;
@@ -1138,9 +1126,7 @@ h3 {
     color: black !important;
 }
 
-
 /** footer hissəsi */
-
 footer {
     width: 100%;
     padding: 40px 20px;
@@ -1286,9 +1272,7 @@ footer {
     color: #cccccc;
 }
 
-
 /** yuxarı çıx hissəsi */
-
 .go-upstairs {
     position: fixed;
     bottom: 25px;
@@ -1331,9 +1315,7 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
 }
 
-
 /** Responsivlik: Media Queries */
-
 /* 1449px */
 
 @media screen and (max-width: 1449px) {
@@ -1370,9 +1352,7 @@ footer {
 
 }
 
-
 /* 1439px */
-
 @media (max-width: 1439px) {
 
     .coming-soon-message {
@@ -1402,10 +1382,7 @@ footer {
 
 }
 
-
 /* 768px */
-
-
 @media screen and (max-width: 768px) {
 
     .coming-soon-message {
@@ -1435,9 +1412,7 @@ footer {
 
 }
 
-
 /* 576px */
-
 @media (max-width: 576px) {
 
     .coming-soon-message {
@@ -1479,9 +1454,7 @@ footer {
 
 }
 
-
 /* 480px */
-
 @media screen and (max-width: 480px) {
 
     .coming-soon-message {
