@@ -142,9 +142,23 @@ $(document).ready(function () {
     toggleSyllabus('#toggleEightButton', '.eight-sillabus', '#buttonEightText');
     toggleSyllabus('#toggleFourFutureButton', '.four-sillabus-future', '#buttonFourFutureText');
     toggleSyllabus('#toggleEightFutureButton', '.eight-sillabus-future', '#buttonEightFutureText');
-    toggleSyllabus('#toggleBackEndFutureButton', '.back-end-sillabus-future', '#buttonBackEndFutureText');
-    toggleSyllabus('#toggleFrontEndOrientedButton', '.full-stack-front-sillabus', '#buttonFronEndOrientedText');
-    toggleSyllabus('#toggleBackEndOrientedButton', '.full-stack-back-sillabus', '#buttonBackEndOrientedText');
+    toggleSyllabus('#toggleBackEndFutureButtonPython', '.back-end-sillabus-future-python', '#buttonBackEndFutureTextPython');
+    toggleSyllabus('#toggleBackEndFutureButtonJava', '.back-end-sillabus-future-java', '#buttonBackEndFutureTextJava');
+    toggleSyllabus('#toggleBackEndFutureButtonC', '.back-end-sillabus-future-c', '#buttonBackEndFutureTextC');
+    toggleSyllabus('#toggleBackEndFutureButtonC--', '.back-end-sillabus-future-c--', '#buttonBackEndFutureTextC--');
+    toggleSyllabus('#toggleBackEndFutureButtonCSharp', '.back-end-sillabus-future-c-sharp', '#buttonBackEndFutureTextCSharp');
+    toggleSyllabus('#toggleBackEndFutureButtonNodejs', '.back-end-sillabus-future-nodejs', '#buttonBackEndFutureTextNodejs');
+    toggleSyllabus('#toggleFrontEndOrientedButtonP', '.full-stack-front-sillabusP', '#buttonFronEndOrientedTextP');
+    toggleSyllabus('#toggleFrontEndOrientedButtonC', '.full-stack-front-sillabusC', '#buttonFronEndOrientedTextC');
+    toggleSyllabus('#toggleFrontEndOrientedButtonJ', '.full-stack-front-sillabusJ', '#buttonFronEndOrientedTextJ');
+    toggleSyllabus('#toggleFrontEndOrientedButtonC--', '.full-stack-front-sillabusC--', '#buttonFronEndOrientedTextC--');
+    toggleSyllabus('#toggleFrontEndOrientedButtonCSharp', '.full-stack-front-sillabusCSharp', '#buttonFronEndOrientedTextCSharp');
+    toggleSyllabus('#toggleBackEndOrientedButtonP', '.full-stack-back-sillabusP', '#buttonBackEndOrientedTextP');
+    toggleSyllabus('#toggleBackEndOrientedButtonC', '.full-stack-back-sillabusC', '#buttonBackEndOrientedTextC');
+    toggleSyllabus('#toggleBackEndOrientedButtonJ', '.full-stack-back-sillabusJ', '#buttonBackEndOrientedTextJ');
+    toggleSyllabus('#toggleBackEndOrientedButtonC--', '.full-stack-back-sillabusC--', '#buttonBackEndOrientedTextC--');
+    toggleSyllabus('#toggleBackEndOrientedButtonCSharp', '.full-stack-back-sillabusCSharp', '#buttonBackEndOrientedTextCSharp');
+
 
 
     //* yuxarı çıx hissəsi

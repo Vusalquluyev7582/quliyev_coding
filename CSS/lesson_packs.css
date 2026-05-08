@@ -265,6 +265,12 @@ h2 {
     box-sizing: border-box;
 }
 
+.b-bottom {
+    border-bottom: 2px solid #00ffff;
+    width: 100%;
+    margin: 20px auto;
+}
+
 .currently h2 a,
 .future h2 a,
 .back-end h2 a,
@@ -357,9 +363,22 @@ h5 {
 .eight-sillabus,
 .four-sillabus-future,
 .eight-sillabus-future,
-.back-end-sillabus-future,
-.full-stack-front-sillabus,
-.full-stack-back-sillabus {
+.back-end-sillabus-future-python,
+.back-end-sillabus-future-java,
+.back-end-sillabus-future-c,
+.back-end-sillabus-future-c--,
+.back-end-sillabus-future-c-sharp,
+.back-end-sillabus-future-nodejs,
+.full-stack-front-sillabusP,
+.full-stack-back-sillabusP,
+.full-stack-front-sillabusJ,
+.full-stack-back-sillabusJ,
+.full-stack-front-sillabusC,
+.full-stack-back-sillabusC,
+.full-stack-front-sillabusC--,
+.full-stack-back-sillabusC--,
+.full-stack-front-sillabusCSharp,
+.full-stack-back-sillabusCSharp {
     background-color: #E5E8E0;
     padding: 30px;
     border-radius: 10px;
@@ -391,8 +410,16 @@ h5 {
     box-sizing: border-box;
 }
 
-.full-stack-front-sillabus,
-.full-stack-back-sillabus {
+.full-stack-front-sillabusP,
+.full-stack-front-sillabusJ,
+.full-stack-front-sillabusC,
+.full-stack-front-sillabusC--,
+.full-stack-front-sillabusCSharp,
+.full-stack-back-sillabusP,
+.full-stack-back-sillabusJ,
+.full-stack-back-sillabusC,
+.full-stack-back-sillabusC--,
+.full-stack-back-sillabusCSharp {
     width: 100%;
     margin: 20px auto;
     padding: 25px;
@@ -876,9 +903,22 @@ footer {
     .eight-sillabus,
     .four-sillabus-future,
     .eight-sillabus-future,
-    .back-end-sillabus-future,
-    .full-stack-front-sillabus,
-    .full-stack-back-sillabus {
+    .back-end-sillabus-future-python,
+    .back-end-sillabus-future-java,
+    .back-end-sillabus-future-c,
+    .back-end-sillabus-future-c--,
+    .back-end-sillabus-future-c-sharp,
+    .back-end-sillabus-future-nodejs,
+    .full-stack-front-sillabusP,
+    .full-stack-back-sillabusP,
+    .full-stack-front-sillabusJ,
+    .full-stack-back-sillabusJ,
+    .full-stack-front-sillabusC,
+    .full-stack-back-sillabusC,
+    .full-stack-front-sillabusC--,
+    .full-stack-back-sillabusC--,
+    .full-stack-front-sillabusCSharp,
+    .full-stack-back-sillabusCSharp {
         width: 100%;
         max-width: none;
         margin: 20px 0;
@@ -1074,9 +1114,22 @@ footer {
     .eight-sillabus,
     .four-sillabus-future,
     .eight-sillabus-future,
-    .back-end-sillabus-future,
-    .full-stack-front-sillabus,
-    .full-stack-back-sillabus {
+    .back-end-sillabus-future-python,
+    .back-end-sillabus-future-java,
+    .back-end-sillabus-future-c,
+    .back-end-sillabus-future-c--,
+    .back-end-sillabus-future-c-sharp,
+    .back-end-sillabus-future-nodejs,
+    .full-stack-front-sillabusP,
+    .full-stack-back-sillabusP,
+    .full-stack-front-sillabusJ,
+    .full-stack-back-sillabusJ,
+    .full-stack-front-sillabusC,
+    .full-stack-back-sillabusC,
+    .full-stack-front-sillabusC--,
+    .full-stack-back-sillabusC--,
+    .full-stack-front-sillabusCSharp,
+    .full-stack-back-sillabusCSharp {
         padding: 15px;
         margin: 15px auto;
     }
